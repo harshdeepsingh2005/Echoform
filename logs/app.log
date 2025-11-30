@@ -1,0 +1,122 @@
+2025-11-30 23:05:10,619 | INFO | [GENERATOR] Gemini model loaded: gemini-1.5-flash
+2025-11-30 23:05:10,646 | INFO | [SYSTEM] ECHOFORM ENGINE STARTED
+2025-11-30 23:05:10,654 | INFO | [SYSTEM] Session ID: db731c4c-caa4-4cfe-bbec-0e8c2c644871
+2025-11-30 23:05:10,656 | INFO | [SYSTEM] Gemini Enabled: True
+2025-11-30 23:05:16,669 | INFO | [USER] hi there
+2025-11-30 23:05:16,686 | INFO | [AGENT] Generator invoked
+2025-11-30 23:05:16,689 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:05:19,301 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:05:20,302 | INFO | [GENERATOR] Gemini request attempt 2
+2025-11-30 23:05:20,666 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:05:21,667 | ERROR | [GENERATOR] All Gemini attempts failed. Fallback engaged.
+2025-11-30 23:05:21,667 | INFO | [AGENT] Observer invoked
+2025-11-30 23:05:21,667 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:05:21,683 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:05:21,695 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:05:21,728 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.6, 'depth': 0.46, 'originality': 0.66, 'overall': 0.67}
+2025-11-30 23:05:21,729 | INFO | [MUTATION] {'creativity': 0.5, 'abstraction': 0.5, 'verbosity': 0.5, 'formality': 0.55}
+2025-11-30 23:05:29,241 | INFO | [USER] hi
+2025-11-30 23:05:29,253 | INFO | [AGENT] Generator invoked
+2025-11-30 23:05:29,253 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:05:29,405 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:05:30,406 | INFO | [GENERATOR] Gemini request attempt 2
+2025-11-30 23:05:30,624 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:05:31,626 | ERROR | [GENERATOR] All Gemini attempts failed. Fallback engaged.
+2025-11-30 23:05:31,626 | INFO | [AGENT] Observer invoked
+2025-11-30 23:05:31,626 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:05:31,635 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:05:31,643 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:05:31,673 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.6, 'depth': 0.46, 'originality': 0.66, 'overall': 0.67}
+2025-11-30 23:05:31,674 | INFO | [MUTATION] {'creativity': 0.5, 'abstraction': 0.5, 'verbosity': 0.5, 'formality': 0.6000000000000001}
+2025-11-30 23:08:33,573 | INFO | [GENERATOR] Gemini model loaded: gemini-1.5-flash
+2025-11-30 23:08:33,591 | INFO | [SYSTEM] ECHOFORM ENGINE STARTED
+2025-11-30 23:08:33,592 | INFO | [SYSTEM] Session ID: 7052d357-422c-4b3b-b321-0b9504bc51e6
+2025-11-30 23:08:33,592 | INFO | [SYSTEM] Gemini Enabled: True
+2025-11-30 23:08:36,573 | INFO | [USER] hi there
+2025-11-30 23:08:36,586 | INFO | [AGENT] Generator invoked
+2025-11-30 23:08:36,587 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:08:37,422 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:08:38,424 | INFO | [GENERATOR] Gemini request attempt 2
+2025-11-30 23:08:38,605 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:08:39,606 | ERROR | [GENERATOR] All Gemini attempts failed. Fallback engaged.
+2025-11-30 23:08:39,606 | INFO | [AGENT] Observer invoked
+2025-11-30 23:08:39,607 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:08:39,615 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:08:39,624 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:08:39,649 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.6, 'depth': 0.46, 'originality': 0.66, 'overall': 0.67}
+2025-11-30 23:08:39,650 | INFO | [MUTATION] {'creativity': 0.5, 'abstraction': 0.5, 'verbosity': 0.5, 'formality': 0.55}
+2025-11-30 23:14:02,777 | INFO | [GENERATOR] Gemini model loaded: models/gemini-1.5-pro
+2025-11-30 23:14:02,792 | INFO | [SYSTEM] ECHOFORM ENGINE STARTED
+2025-11-30 23:14:02,793 | INFO | [SYSTEM] Session ID: 75c42a6d-7455-422f-95ed-4bc446d41bb6
+2025-11-30 23:14:02,793 | INFO | [SYSTEM] Gemini Enabled: True
+2025-11-30 23:15:44,060 | INFO | [USER] Reflect on your own reasoning process while answering this question: What is intelligence?
+2025-11-30 23:15:44,076 | INFO | [AGENT] Generator invoked
+2025-11-30 23:15:44,077 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:15:44,837 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:15:45,838 | INFO | [GENERATOR] Gemini request attempt 2
+2025-11-30 23:15:46,007 | WARNING | [GENERATOR] Gemini attempt failed: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-30 23:15:47,008 | ERROR | [GENERATOR] All Gemini attempts failed. Fallback engaged.
+2025-11-30 23:15:47,009 | INFO | [AGENT] Observer invoked
+2025-11-30 23:15:47,009 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:15:47,017 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:15:47,028 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:15:47,056 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.9, 'depth': 0.46, 'originality': 0.66, 'overall': 0.75}
+2025-11-30 23:15:47,056 | INFO | [MUTATION] {'creativity': 0.5, 'abstraction': 0.5, 'verbosity': 0.5, 'formality': 0.55}
+2025-11-30 23:24:14,851 | INFO | [GENERATOR] Gemini model loaded: models/gemini-2.5-flash
+2025-11-30 23:24:14,865 | INFO | [SYSTEM] ECHOFORM ENGINE STARTED
+2025-11-30 23:24:14,866 | INFO | [SYSTEM] Session ID: 89b5620a-7072-4470-b918-911d8dded27e
+2025-11-30 23:24:14,866 | INFO | [SYSTEM] Gemini Enabled: True
+2025-11-30 23:24:20,631 | INFO | [USER] Reflect on your own reasoning process while answering this question: What is intelligence?
+2025-11-30 23:24:20,642 | INFO | [AGENT] Generator invoked
+2025-11-30 23:24:20,642 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:24:33,659 | INFO | [AGENT] Observer invoked
+2025-11-30 23:24:33,660 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:24:33,673 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:24:33,681 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:24:33,704 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.9, 'depth': 0.7, 'originality': 0.86, 'overall': 0.83}
+2025-11-30 23:24:33,705 | INFO | [MUTATION] {'creativity': 0.6, 'abstraction': 0.6, 'verbosity': 0.6, 'formality': 0.5}
+2025-11-30 23:38:11,936 | INFO | [USER] Explain ECHOFORM in one sentence.
+2025-11-30 23:38:11,989 | INFO | [AGENT] Generator invoked
+2025-11-30 23:38:11,993 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:38:18,052 | INFO | [AGENT] Observer invoked
+2025-11-30 23:38:18,054 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:38:18,062 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:38:18,071 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:38:18,094 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.9, 'depth': 0.54, 'originality': 0.7, 'overall': 0.77}
+2025-11-30 23:38:18,094 | INFO | [MUTATION] {'creativity': 0.6, 'abstraction': 0.6, 'verbosity': 0.6, 'formality': 0.55}
+2025-11-30 23:38:51,190 | INFO | [USER] Reflect on your own reasoning while answering: What is intelligence?
+2025-11-30 23:38:51,204 | INFO | [AGENT] Generator invoked
+2025-11-30 23:38:51,206 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:38:59,785 | INFO | [AGENT] Observer invoked
+2025-11-30 23:38:59,787 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:38:59,796 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:38:59,803 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:38:59,824 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.9, 'depth': 0.58, 'originality': 0.74, 'overall': 0.79}
+2025-11-30 23:38:59,825 | INFO | [MUTATION] {'creativity': 0.6, 'abstraction': 0.6, 'verbosity': 0.6, 'formality': 0.6000000000000001}
+2025-11-30 23:39:39,293 | INFO | [USER] Remember that my favorite topic is cognitive systems.
+2025-11-30 23:39:39,307 | INFO | [AGENT] Generator invoked
+2025-11-30 23:39:39,307 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:39:43,765 | INFO | [AGENT] Observer invoked
+2025-11-30 23:39:43,766 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:39:43,774 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:39:43,780 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:39:43,805 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.9, 'depth': 0.5, 'originality': 0.74, 'overall': 0.77}
+2025-11-30 23:39:43,806 | INFO | [MUTATION] {'creativity': 0.6, 'abstraction': 0.6, 'verbosity': 0.6, 'formality': 0.6500000000000001}
+2025-11-30 23:41:25,216 | INFO | [USER] What topic do I usually talk about?
+2025-11-30 23:41:25,226 | INFO | [AGENT] Generator invoked
+2025-11-30 23:41:25,227 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:41:28,206 | INFO | [AGENT] Observer invoked
+2025-11-30 23:41:28,207 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:41:28,215 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:41:28,223 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:41:28,247 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.9, 'depth': 0.34, 'originality': 0.66, 'overall': 0.72}
+2025-11-30 23:41:28,247 | INFO | [MUTATION] {'creativity': 0.6, 'abstraction': 0.6, 'verbosity': 0.6, 'formality': 0.7000000000000002}
+2025-11-30 23:41:50,717 | INFO | [USER] Compare human learning and machine learning, then evaluate how confident you are in your answer.
+2025-11-30 23:41:50,731 | INFO | [AGENT] Generator invoked
+2025-11-30 23:41:50,734 | INFO | [GENERATOR] Gemini request attempt 1
+2025-11-30 23:41:58,020 | INFO | [AGENT] Observer invoked
+2025-11-30 23:41:58,021 | INFO | [AGENT] Compressor invoked
+2025-11-30 23:41:58,028 | INFO | [AGENT] Evaluator invoked
+2025-11-30 23:41:58,040 | INFO | [AGENT] Mutator invoked
+2025-11-30 23:41:58,061 | INFO | [EVAL] {'accuracy': 0.85, 'clarity': 0.7, 'depth': 0.34, 'originality': 0.66, 'overall': 0.67}
+2025-11-30 23:41:58,062 | INFO | [MUTATION] {'creativity': 0.6, 'abstraction': 0.6, 'verbosity': 0.6, 'formality': 0.7500000000000002}
